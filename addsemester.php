@@ -130,7 +130,7 @@ if(isset($_POST['btn']))
         $.ajax({
           url:"fillselect.php",
           type:"POST",
-          data:{id:doc1},
+          data:{col:doc1},
           success:function(data){
             $('#sec').html(data);
             
