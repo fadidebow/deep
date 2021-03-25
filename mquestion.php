@@ -124,17 +124,6 @@ include'empnav.php';
 
 
 
-
-
-	if(isset($_GET['fadi']))
-		{$xx=$_GET['fadi'];
-	$ttt=mysqli_query($con,"delete from question where id='$xx'");
-	if(isset($ttt))
-		header("Location: mquestion.php");
-
-}
-
-
 			?>
 			</tbody>
 		</table>
