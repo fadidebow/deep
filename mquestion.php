@@ -48,7 +48,7 @@ include'empnav.php';
 					<th>الجواب الخامس  </th>
 					<th>رقم الاجابة الصحيحة </th>
 				
-				<th>حذف</th>
+			
 				
 			</tr>
 </thead>
@@ -80,7 +80,7 @@ include'empnav.php';
 			<td>'.$row['num'].'</td>
 			
 
-			<td> <a href="mquestion.php?fadi='.$row['id'].'" class="btn btn-danger"> Delete</a> </td>
+			
 
 
 
