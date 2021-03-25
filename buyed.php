@@ -39,6 +39,7 @@ include'libnav.php';
 			<tr>
 				
 				<th>الرقم    </th>
+				<th>نوع الرقم </th>
 					<th> اسم المكتبة </th>
 				
 				<th> الحالة </th>
@@ -69,6 +70,7 @@ if(mysqli_num_rows($q) > 0)
 		<tr>
 	
 			<td>'.$row['num'].'</td>
+			<td>'.$row['type'].'</td>
 			<td>'.$row['library'].'</td>
 			<td>'.$row['state'].'</td>
 			<td>'.$row['dou'].'</td>
